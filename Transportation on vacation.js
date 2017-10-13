@@ -1,12 +1,12 @@
-function basicOp(operation, value1, value2) {
- if (operation === "*") {
-  result = value1 * value2, result;
- } else if (operation === "-") {
-  result = value1 - value2;
- } else if (operation === "+") {
-  result = value1 + value2;
- } else if (operation === "/") {
-  result = value1 / value2;
+function rentalCarCost(d) {
+ var tnoofDays = 40 * d;
+ if (d >= 7) {
+  result= tnoofDays - 50;
  }
- return result;
+ if (d >= 3) {
+  result= tnoofDays - 20;
+ } else {
+  result= tnoofDays;
+ }
+    return result;
 }
