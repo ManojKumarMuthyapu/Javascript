@@ -3,7 +3,7 @@ function rentalCarCost(d) {
  if (d >= 7) {
   result= tnoofDays - 50;
  }
- if (d >= 3) {
+ else if (d >= 3) {
   result= tnoofDays - 20;
  } else {
   result= tnoofDays;
